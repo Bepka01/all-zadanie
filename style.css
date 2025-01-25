@@ -9,9 +9,9 @@ body {
   font-size: 30px;
   height: 80px;
   border-radius: 20px;
+  list-style-type: none;
 }
-li {
-}
+
 h1 {
   text-align: center;
   color: black;
@@ -53,6 +53,7 @@ img {
   width: 200px;
 }
 .image {
+  border-radius: 50%;
   display: flex;
   justify-content: center;
 }
