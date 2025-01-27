@@ -57,3 +57,32 @@ img {
   display: flex;
   justify-content: center;
 }
+.link-course {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+.video-course {
+  color: black;
+  font-size: 50px;
+}
+.boxx {
+  border-left: 10px dotted white;
+  border-top: 10px solid red;
+  border-bottom: 10px solid green;
+}
+
+@media (max-width: 1000px) {
+  body {
+    font-size: 20px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 200px;
+  }
+  .instr {
+    margin-top: 70px;
+  }
+}
