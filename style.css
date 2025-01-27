@@ -1,5 +1,6 @@
 body {
   background-color: floralwhite;
+  height: 200vh;
 }
 .menu {
   background-color: dodgerblue;
@@ -70,6 +71,34 @@ img {
   border-left: 10px dotted white;
   border-top: 10px solid red;
   border-bottom: 10px solid green;
+}
+.flex {
+  margin-top: 30px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+.blue {
+  background-color: #87ceeb;
+
+  width: 33.3%;
+  height: 100px;
+}
+.green {
+  background-color: #9acd32;
+
+  width: 33.3%;
+  height: 100px;
+}
+.yellow {
+  background-color: #eee8aa;
+
+  width: 33.3%;
+  height: 100px;
+}
+.image1 {
+  height: 70px;
+  width: 70px;
 }
 
 @media (max-width: 1000px) {
