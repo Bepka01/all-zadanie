@@ -79,6 +79,12 @@ img {
   justify-content: space-around;
   text-align: center;
 }
+
+.flex img {
+  border-radius: 30px;
+  object-fit: cover;
+}
+
 .blue {
   background-color: #87ceeb;
 
@@ -86,6 +92,7 @@ img {
   height: 100px;
   border-radius: 20px;
 }
+
 .green {
   background-color: #9acd32;
 
