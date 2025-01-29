@@ -3,6 +3,12 @@
   color: white;
 }
 
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+}
+
 /* body {
 } */
 
@@ -80,13 +86,14 @@ li {
     margin-right: 0px;
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 576px) {
   .menu {
     margin-left: 0px;
     background-color: darkgreen;
     display: flex;
   }
   ul {
+    padding: 0px;
     display: flex;
     flex-direction: column;
     margin-left: 0px;
@@ -101,8 +108,5 @@ li {
     border: 1px solid gray;
     width: 100%;
     padding: 0px;
-  }
-  body {
-    width: 100vw;
   }
 }
