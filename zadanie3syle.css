@@ -8,7 +8,7 @@ body {
 .boxbox {
   width: 300px;
   background-color: rgba(234, 228, 228, 0.742);
-  /* border: 1px solid rgb(250, 250, 250); */
+
   height: 65vh;
   border-radius: 20px;
   text-align: center;
